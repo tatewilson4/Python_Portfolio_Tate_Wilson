@@ -1,6 +1,15 @@
 /* ##################### */
 /* navbar */
 /* ##################### */
+
+.nav-logo {
+    height: 30% !important;
+    width: 30% !important;
+    padding-top: 15px;
+    padding-left: 0px;
+}
+
+
 .horizontal-nav-links {
     transform: rotate(90deg);
 
@@ -28,10 +37,14 @@
     color: black;
 
 }
-nav {
-    background-color: #FF8C69;
-}
 
+nav {
+    background-color: transparent;
+    height: 0px;
+}
+body {
+    background-color: white;
+}
 #logo {
     padding-bottom: 600px;
     padding-left: 20px;
@@ -40,11 +53,16 @@ nav {
 
 .vertical-nav-link {
     font-size: 13px;
-    padding-right: 10px !important;
+    padding-right: 20px !important;
+    color: black;
+    font-weight: bold;
+    padding-top: 23px;
 }
 
 .navbar {
-    height: 0px;
+    background-color: transparent;
+    height: auto;
+    overflow: hidden;
 }
 
 
@@ -75,14 +93,14 @@ nav {
     animation: group-anim 7s 1s;
 }
 .heart-loader__square {
-    stroke: #B8B8B8;
+    stroke: #2d2d2d;
     stroke-dasharray: 240, 240;
     stroke-dashoffset: 240;
     -webkit-animation: square-anim 7s 1s;
     animation: square-anim 7s 1s;
 }
 .heart-loader__circle {
-    stroke: #B8B8B8;
+    stroke: #2d2d2d;
     stroke-dasharray: 188.522, 188.522;
     stroke-dashoffset: 188.522;
     -webkit-transform-origin: 60px 30px;
@@ -361,7 +379,7 @@ nav {
     100% {
         stroke-dashoffset: 0;
         fill: #A20010;
-        opacity:.2;
+        opacity:1;
     }
 }
 .other {
@@ -467,6 +485,122 @@ nav {
 
 
 .banner {
+    position: absolute;
+    top: 0;
+    width: 100%;
     height: 100vh;
     background-color: #FF8C69;
+    background-image: url('../img/splatter.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ##################### */
+/* heart logo */
+/* ##################### */
+.active {
+    background-color: red;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.logo {
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+
+
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+    padding-left: 36.8%;
+    padding-top: 19.5%;
+    z-index: 10;
+}
+
+.heart_logo_fade_in {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    padding-bottom: 5px;
+}
+.logo-img {
+    width: 42%;
+    height: 42%;
+
+}
+
+@keyframes fadeIn {
+
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+    }
 }

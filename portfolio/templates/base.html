@@ -14,10 +14,10 @@
 <body>
 
     <nav class="navbar sticky-top">
-        <a class="navbar-brand" href="#" id="logo">TATE WILSON</a>
+        <a class="navbar-brand" href="#" id="logo"><img class="nav-logo" src="../../static/img/logo.png"></a>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link vertical-nav-link" href="#" id="headline">PORTFOLIO OF <br>TATE WILSON</a>
+                <p class="nav-link vertical-nav-link" href="#" id="headline">PORTFOLIO OF <br>TATE WILSON</p>
             </li>
             <li class="nav-item">
                 <a class="nav-link horizontal-nav-links" href="#" id="work">WORK</a>
@@ -31,20 +31,21 @@
         </ul>
     </nav>
 
-    <div class="container-fluid banner">
-        <svg class="heart-loader" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 90 90" version="1.1">
-            <g class="heart-loader__group">
-                <path class="heart-loader__square" stroke-width="1" fill="none" d="M0,30 0,90 60,90 60,30z"/>
-                <path class="heart-loader__circle m--left" stroke-width="1" fill="none" d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0"/>
-                <path class="heart-loader__circle m--right" stroke-width="1" fill="none" d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0"/>
-                <path class="heart-loader__heartPath" stroke-width="2" d="M60,30 a30,30 0 0,1 0,60 L0,90 0,30 a30,30 0 0,1 60,0" />
-            </g>
-        </svg>
 
-        <div id="mydiv" class="hidden">
-            <img class="logo-img" src="../static/img/portfolio_logo.png">
+        <div class="banner">
+
+            <svg class="heart-loader" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 90 90" version="1.1">
+                <g class="heart-loader__group">
+                    <path class="heart-loader__square" stroke-width="1" fill="none" d="M0,30 0,90 60,90 60,30z"/>
+                    <path class="heart-loader__circle m--left" stroke-width="1" fill="none" d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0"/>
+                    <path class="heart-loader__circle m--right" stroke-width="1" fill="none" d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0"/>
+                    <path class="heart-loader__heartPath" stroke-width="2" d="M60,30 a30,30 0 0,1 0,60 L0,90 0,30 a30,30 0 0,1 60,0" />
+                </g>
+            </svg>
+            <div id="mydiv" class="hidden">
+                <img class="heart_logo_fade_in" src="../../static/img/logo.png">
+            </div>
         </div>
-    </div>
 
 
     <div class="container">
@@ -60,11 +61,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <script type="text/javascript">
-        setTimeout(function() {
+
+    setTimeout(function() {
             $('#mydiv').addClass('logo')
             $('#mydiv').removeClass('hidden')
         }, 4500);
-
 
     </script>
 </body>
