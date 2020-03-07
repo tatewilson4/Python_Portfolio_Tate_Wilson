@@ -604,3 +604,25 @@ body {
     opacity:1;
     }
 }
+
+
+
+
+/* ##################### */
+/* start of main body */
+/* ##################### */
+
+.main {
+    padding-top: 10vh;
+}
+
+.body-col {
+    border: 1px solid black;
+    height: 300px;
+}
+
+
+.section-label {
+    text-align: center;
+    font-size: 50px;
+}
