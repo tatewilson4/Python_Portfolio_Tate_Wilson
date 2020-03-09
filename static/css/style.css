@@ -41,6 +41,7 @@
 nav {
     background-color: transparent;
     height: 0px;
+
 }
 body {
     background-color: white;
@@ -362,7 +363,7 @@ body {
 }
 @keyframes heart-anim {
     0% {
-      opacity:1;
+        opacity:1;
     }
     55% {
         stroke-dashoffset: 308.522;
@@ -403,13 +404,13 @@ body {
 
 
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    visibility: visible;
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
 }
 
 .hidden {
@@ -439,47 +440,47 @@ body {
 
 @keyframes fadeIn {
 
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
 }
 
 @-moz-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
 }
 
 @-webkit-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
 }
 
 @-o-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
 }
 
 @-ms-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
     }
 }
 
@@ -516,13 +517,13 @@ body {
 
 
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    visibility: visible;
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
 }
 
 .hidden {
@@ -561,47 +562,47 @@ body {
 
 @keyframes fadeIn {
 
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
 }
 
 @-moz-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
 }
 
 @-webkit-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
 }
 
 @-o-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
 }
 
 @-ms-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
     }
 }
 
@@ -612,8 +613,16 @@ body {
 /* start of main body */
 /* ##################### */
 
-.main {
+
+
+
+/* ##################### */
+/* About Me Section */
+/* ##################### */
+
+.about {
     padding-top: 10vh;
+    padding-bottom: 200px;
 }
 
 .body-col {
@@ -625,4 +634,87 @@ body {
 .section-label {
     text-align: center;
     font-size: 50px;
+}
+
+.about-title {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 45px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.abstract-background-about {
+    object-fit: cover;
+    overflow: hidden;
+    height: 300px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.transparent-div {
+    height: 300px;
+}
+
+.skills-col {
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-me-title {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.more {
+    font-size: 18px;
+    padding-top: 10px;
+
+}
+
+.large-pipe {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+
+
+/* ##################### */
+/* Work Section */
+/* ##################### */
+
+.work {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.work-title {
+    font-size: 18px;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.clly, .bootstrap, .thais-list, .todo {
+    object-fit: cover;
+    overflow: hidden;
+    height: auto;
+    width: 40%;
+    position: absolute;
+}
+
+.clly, .thais-list {
+    right: 0;
+}
+
+.bootstrap {
+    padding-top: 40vh;
+}
+
+.thais-list {
+    padding-top: 88vh;
+
+}
+.todo {
+    padding-top: 130vh;
 }
