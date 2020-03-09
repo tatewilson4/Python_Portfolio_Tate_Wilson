@@ -487,6 +487,7 @@ body {
 
 .banner {
     position: absolute;
+    padding-right: 0px;
     top: 0;
     width: 100%;
     height: 100vh;
@@ -693,6 +694,7 @@ body {
     font-size: 18px;
     text-align: center;
     font-family: "Courier New", Courier, monospace;
+
 }
 
 .clly, .bootstrap, .thais-list, .todo {
@@ -701,6 +703,7 @@ body {
     height: auto;
     width: 40%;
     position: absolute;
+    padding-top: 20vh;
 }
 
 .clly, .thais-list {
@@ -708,13 +711,137 @@ body {
 }
 
 .bootstrap {
-    padding-top: 40vh;
+    padding-top: 60vh;
 }
 
 .thais-list {
-    padding-top: 88vh;
+    padding-top: 108vh;
 
 }
 .todo {
-    padding-top: 130vh;
+    padding-top: 150vh;
+}
+
+
+
+
+
+/* ##################### */
+/* Work Line Section */
+/* ##################### */
+
+.work-line-clly-right {
+    border-left: 1px solid #C0C0C0;
+    height: 47vh;
+}
+
+.clly-title {
+    position: absolute;
+    font-size: 30px;
+    padding-top: 50vh;
+    left: 0;
+}
+
+.bootstrap-row {
+    padding-top: 19vh;
+}
+
+.work-line-bootstrap-right {
+    border-left: 1px solid #C0C0C0;
+    height: 21vh;
+}
+
+.bootstrap-title {
+    position: absolute;
+    font-size: 30px;
+    padding-top: 23vh;
+    right: 0;
+}
+
+.thais-list-row {
+    padding-top: 11vh;
+}
+
+.work-line-thais-list-right {
+    border-left: 1px solid #C0C0C0;
+    height: 28vh;
+}
+
+.thais-list-title {
+    position: absolute;
+    font-size: 30px;
+    padding-top: 31vh;
+    left: 0;
+}
+
+.todo-row {
+    padding-top: 18vh;
+}
+
+.work-line-todo-right {
+    border-left: 1px solid #C0C0C0;
+    height: 28vh;
+}
+
+.todo-title {
+    position: absolute;
+    font-size: 30px;
+    padding-top: 30vh;
+    right: 0;
+}
+
+.more-row {
+    padding-top: 11vh;
+}
+
+.work-line-more-right {
+    border-left: 1px solid #C0C0C0;
+    height: 50vh;
+}
+
+.more-title {
+    font-size: 18px;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    padding-top: 4vh;
+    padding-bottom: 30px;
+}
+
+
+/* ##################### */
+/* Contact/Footer */
+/* ##################### */
+
+footer{
+    text-transform: uppercase;
+    background-color: #101010;
+}
+
+.footer-title {
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 45px;
+    border-bottom: 1px solid white;
+}
+
+.info, .footer-title {
+    color: #E0E0E0;
+}
+.info-title {
+    color: 	#909090;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.footer-row-1 {
+    padding-top: 45px;
+}
+
+.footer {
+    height: 600px;
+    padding-top: 60px;
+}
+
+.icon_img {
+    height: 3em;
 }
