@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
 /* ##################### */
 /* navbar */
 /* ##################### */
@@ -38,6 +42,10 @@
 
 }
 
+.horizontal-nav-links:hover {
+    opacity: .8;
+}
+
 nav {
     background-color: transparent;
     height: 0px;
@@ -58,6 +66,11 @@ body {
     color: black;
     font-weight: bold;
     padding-top: 23px;
+    text-decoration: none;
+}
+.headline-link:hover {
+    text-decoration: none;
+    color: #C0C0C0;
 }
 
 .navbar {
@@ -806,6 +819,10 @@ body {
     padding-top: 4vh;
     padding-bottom: 30px;
 }
+
+/* fade in from side animation */
+
+
 
 
 /* ##################### */
